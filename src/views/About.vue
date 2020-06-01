@@ -217,8 +217,8 @@
     </section>
     <p>
       Cup of Codes Logo created by
-      <a href="https://www.instagram.com/michellemva/?hl=en"
-        >The Blacklines - Michelle Almoro</a
+      <a href="https://www.instagram.com/mvasketches/"
+        >MVA Sketches - Michelle Almoro</a
       >
     </p>
     <p>
