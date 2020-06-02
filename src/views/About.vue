@@ -1,23 +1,22 @@
 <template>
   <div class="about">
     <div>
-      <!-- <img
-        src="../assets/homeBg.jpg"
-        style="border-radius: 50%; width: 15%; height:15%; margin-top: 30px; margin-bottom: 30px"
-      /> -->
       <img
         src="../assets/26619761.jpg"
         style="border-radius: 50%; width: 15%; height:15%; margin-top: 30px; margin-bottom: 30px"
       />
     </div>
-    <h4>
+    <h3>
       <em>Software Engineer of <strong>THISS Technologies</strong></em>
-    </h4>
-    <h4>
+    </h3>
+    <h3>
       <em>Founder of <strong>R&M Apps</strong></em>
-    </h4>
+    </h3>
     <div style="display: inline-block;">
-      <p style="display: inline-block;">
+      <p
+        class="mb-5;"
+        style="display: inline-block; font-weight: 500; font-size: 1.1rem;"
+      >
         I am a web developer, an android developer, a gamer, and a somewhat
         farmer. And yes I love coffee.
       </p>
@@ -26,19 +25,19 @@
         style="width: 3%; height: 3%; display: inline-block;padding-bottom: 20px;"
       />
     </div>
-    <p>
+    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
       My goal is to be all the -mer that I can be.
     </p>
     <hr />
     <h3>Education</h3>
-    <p>
+    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
       Bachelor's of Computer Science from University of Adelaide 2016-2018
       <br />
       Diploma in Electronics from Temasek Polytechnic 2009-2012
     </p>
     <hr />
     <h3>Personal Projects</h3>
-    <p>
+    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
       A320 Simulator - A C++ Application
       <br />
       Spendex a Budget application - android app
@@ -56,74 +55,11 @@
       allowfullscreen
     ></iframe>
     <hr />
-    <!-- <h3>Languages</h3> -->
-    <!-- <table
-      cellspacing="20"
-      style="display: inline-block; horizontal-align: top"
-    >
-      <tr>
-        <td>
-          <table>
-            <th>Web Development</th>
-            <tr>
-              <td>JavaScript</td>
-            </tr>
-            <tr>
-              <td>AngularJs/Bootstrap</td>
-            </tr>
-            <tr>
-              <td>VueJs/ElementIo</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>Android Development</th>
-            <tr>
-              <td>Java</td>
-            </tr>
-            <tr>
-              <td>XML</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>Software Development</th>
-            <tr>
-              <td>C++</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>Automated Test Development</th>
-            <tr>
-              <td>Robot Framework</td>
-            </tr>
-            <tr>
-              <td>Python (Basic)</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>Others</th>
-            <tr>
-              <td>Ruby on Rails</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table> -->
 
     <section class="page-section" id="services">
       <div class="container">
         <h2 class="text-center mt-0">Web Development</h2>
-        <hr class="divider my-4" />
+        <hr class="divider my-2" />
         <div
           class="row"
           style="width:1000px; flex-wrap: nowrap; padding-right: 10%;"
@@ -172,7 +108,29 @@
     <section class="page-section" id="services">
       <div class="container">
         <h2 class="text-center mt-0">Android Development</h2>
-        <hr class="divider my-4" />
+        <hr class="divider my-2" />
+        <div class="row" style="padding-left: 35%">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img
+                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+              />
+              <h3 class="h4 mb-2">Java</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <img src="https://img.icons8.com/nolan/48/xml.png" />
+              <h3 class="h4 mb-2">XML</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section" id="services">
+      <div class="container">
+        <h2 class="text-center mt-0">Software Development</h2>
+        <hr class="divider my-2" />
         <div class="row" style="padding-left: 35%">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
@@ -185,9 +143,9 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
               <img
-                src="https://img.icons8.com/nolan/48/xml.png"
+                src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
               />
-              <h3 class="h4 mb-2">XML</h3>
+              <h3 class="h4 mb-2">C++</h3>
             </div>
           </div>
         </div>
@@ -195,26 +153,41 @@
     </section>
     <section class="page-section" id="services">
       <div class="container">
-        <h2 class="text-center mt-0">Android Development</h2>
-        <hr class="divider my-4" />
-        <div class="row">
-          <div class="col-lg-2 col-md-2 text-center">
-            <div class="mt-5">
+        <h2 class="text-center mt-0">Automated Test Development</h2>
+        <hr class="divider" />
+        <div class="row" style="padding-left: 35%">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-4" style="margin-top: 1.8rem !important;">
               <img
-                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+                src="../assets/robot-framework-white.png"
+                style="width: 70px; height:70px"
               />
-              <h3 class="h4 mb-2">Java</h3>
+              <h3 class="h4 mb-2">Robot Framework</h3>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 text-center">
+          <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              
-              <h3 class="h4 mb-2">XML</h3>
+              <img src="https://img.icons8.com/color/50/000000/python.png" />
+              <h3 class="h4 mb-2">Python</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="page-section" id="services">
+      <div class="container">
+        <h2 class="text-center mt-0">Others</h2>
+        <div class="col-lg-12 col-md-24 text-center">
+          <div class="mt-5">
+            <img
+              src="https://img.icons8.com/color/50/000000/ruby-programming-language.png"
+            />
+            <h3 class="h4 mb-2">Ruby On Rails</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <p>
       Cup of Codes Logo created by
       <a href="https://www.instagram.com/mvasketches/"
@@ -234,6 +207,10 @@
       <a href="https://www.freepik.com/free-photos-vectors/background"
         >dashu83 - www.freepik.com</a
       >
+    </p>
+    <p>
+      Language Icons by
+      <a href="https://icons8.com/">Icons8</a>
     </p>
   </div>
 </template>
