@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h4>
+    <h4 style="color: #fed136;">
       A Vue JS Project by Meriel Almoro
     </h4>
   </div>

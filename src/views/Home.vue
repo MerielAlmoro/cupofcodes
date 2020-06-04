@@ -1,43 +1,89 @@
 <template>
   <div class="home">
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container">
-        <!-- <div class="masthead-subheading">Cup of Codes</div> -->
-        <div class="masthead-heading">
-          Cup of Codes
-        </div>
-        <!-- <img
-          alt="Vue logo"
-          src="../assets/ccp_logo.png"
-          style="width: 200px;"
-        /> -->
-        <!-- <img
-          alt="Vue logo"
-          src="../assets/newCup2.jpg"
-          style="width: 30%; height:30%; margin-top: 5%; margin-bottom: 5%; opacity: 0.8; border-radius: 50%;"
-        /> -->
-        <img
-          alt="Vue logo"
-          src="../assets/newCup3.png"
-          style="width: 30%; height:30%;margin-top: 5%; margin-bottom: 5%;"
-        />
-        <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
-        <!-- <HelloWorld msg="Cup of Codes" /> -->
-        <HelloWorld></HelloWorld>
-      </div>
-    </header>
+    <h1 class="title">Cup of Codes</h1>
+    <div class="logo-area">
+      <img class="logo" src="../assets/newCup3.png" alt="Cup of codes logo" />
+    </div>
+    <h4 class="subtitle">
+      <!-- A Vue JS Project by <span class="author">Meriel Almoro</span> -->
+      A Vue JS Project by <span class="author">~/meriel_almoro</span>
+    </h4>
+
+    <div style="margin-top: 15%; margin-bottom: 0px;">
+      <el-row
+        :gutter="0"
+        style="margin: 0; align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/1.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/2.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/3.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/4.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+      </el-row>
+      <el-row
+        :gutter="0"
+        style="margin: 0;align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <div class="mt-5">
+              <img
+                src="../assets/thumbnails/5.jpg"
+                style="width: 100%; height: 100%"
+              />
+            </div></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/6.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/1.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+        <el-col :span="6" style="margin: 0;"
+          ><div class="grid-content ">
+            <img
+              src="../assets/thumbnails/2.jpg"
+              style="width: 100%; height: 100%"
+            /></div
+        ></el-col>
+      </el-row>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
+  name: "Home"
 };
 </script>

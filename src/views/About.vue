@@ -1,46 +1,46 @@
 <template>
   <div class="about">
     <div>
-      <img
-        src="../assets/26619761.jpg"
-        style="border-radius: 50%; width: 15%; height:15%; margin-top: 30px; margin-bottom: 30px"
-      />
+      <img src="../assets/authorImg.jpg" class="round-logo" />
     </div>
-    <h3>
-      <em>Software Engineer of <strong>THISS Technologies</strong></em>
-    </h3>
-    <h3>
+    <h2 style="margin-bottom: 0px;">
+      <em>Software Engineer</em> <br />
       <em>Founder of <strong>R&M Apps</strong></em>
-    </h3>
-    <div style="display: inline-block;">
-      <p
-        class="mb-5;"
-        style="display: inline-block; font-weight: 500; font-size: 1.1rem;"
-      >
-        I am a web developer, an android developer, a gamer, and a somewhat
-        farmer. And yes I love coffee.
+    </h2>
+    <div>
+      <p style="display: inline-block;">
+        I am a web developer, an android developer, a gamer, a somewhat farmer
+        and a coffe lovMer.
+        <!-- <div style="display: inline-block;"> -->
+        <iframe
+          src="https://giphy.com/embed/Rh4LjWp71c9fAm7Hk4"
+          width="68px"
+          height="68px"
+          frameBorder="0"
+          style="pointer-events: none; display: inline-block;"
+        ></iframe>
+        <!-- </div> -->
+        <!-- <img
+          src="../assets/cup.png"
+          style="width: 3%; height: 3%; display: inline-block; margin-left: 5px; margin-bottom: 0px;"
+        /> -->
+        <br />
+        My goal is to be all the -mer that I can be.
       </p>
-      <img
-        src="../assets/cup.png"
-        style="width: 3%; height: 3%; display: inline-block;padding-bottom: 20px;"
-      />
     </div>
-    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
-      My goal is to be all the -mer that I can be.
-    </p>
     <hr />
-    <h3>Education</h3>
-    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
+    <h2>Education</h2>
+    <p>
       Bachelor's of Computer Science from University of Adelaide 2016-2018
       <br />
       Diploma in Electronics from Temasek Polytechnic 2009-2012
     </p>
     <hr />
-    <h3>Personal Projects</h3>
-    <p class="mb-5;" style="font-weight: 500; font-size: 1.1rem;">
+    <h2>Personal Projects</h2>
+    <p>
       A320 Simulator - A C++ Application
       <br />
-      Spendex a Budget application - android app
+      Spendex - A Budget Application For Android Platform
       <br />
       <a href="https://youtu.be/NRGqZx49VqI"
         >Rover Mapping Robot - Ev3 Mindstorm using Java
@@ -55,139 +55,150 @@
       allowfullscreen
     ></iframe>
     <hr />
-
-    <section class="page-section" id="services">
-      <div class="container">
-        <h2 class="text-center mt-0">Web Development</h2>
-        <hr class="divider my-2" />
-        <div
-          class="row"
-          style="width:1000px; flex-wrap: nowrap; padding-right: 10%;"
-        >
-          <div class="col-lg-3 col-md-6 text-center">
+    <h2>Web Development</h2>
+    <div style="margin-top: 40px; margin-bottom: 20px;">
+      <el-row
+        :gutter="20"
+        style="align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="3"
+          ><div class="grid-content ">
             <div class="mt-5">
               <img
                 src="https://img.icons8.com/color/48/000000/javascript.png"
               />
               <h3 class="h4 mb-2">Javascript</h3>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img src="https://img.icons8.com/color/48/000000/angularjs.png" />
-              <h3 class="h4 mb-2">AngularJs</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img
-                src="../assets/logo.png"
-                style="width: 48px; height: 48px;"
-              />
-              <h3 class="h4 mb-2">VueJs</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
-              <h3 class="h4 mb-2">Bootstrap</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img
-                src="../assets/element-logo-small.svg"
-                style="width: 48px; height: 48px;"
-              />
-              <h3 class="h4 mb-2">Element IO</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page-section" id="services">
-      <div class="container">
-        <h2 class="text-center mt-0">Android Development</h2>
-        <hr class="divider my-2" />
-        <div class="row" style="padding-left: 35%">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img
-                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
-              />
-              <h3 class="h4 mb-2">Java</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <img src="https://img.icons8.com/nolan/48/xml.png" />
-              <h3 class="h4 mb-2">XML</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page-section" id="services">
-      <div class="container">
-        <h2 class="text-center mt-0">Software Development</h2>
-        <hr class="divider my-2" />
-        <div class="row" style="padding-left: 35%">
-          <div class="col-lg-3 col-md-6 text-center">
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img src="https://img.icons8.com/color/48/000000/angularjs.png" />
+            <h3 class="mb-2">AngularJs</h3>
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img src="../assets/logo.png" style="width: 48px; height: 48px;" />
+            <h3 class="h4 mb-2">VueJs</h3>
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img src="https://img.icons8.com/color/48/000000/bootstrap.png" />
+            <h3 class="h4 mb-2">Bootstrap</h3>
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img
+              src="../assets/element-logo-small.svg"
+              style="width: 48px; height: 48px;"
+            />
+            <h3 class="h4 mb-2">Element IO</h3>
+          </div></el-col
+        >
+      </el-row>
+    </div>
+    <hr />
+    <h2>Android Development</h2>
+    <div style="margin-top: 40px; margin-bottom: 20px;">
+      <el-row
+        :gutter="20"
+        style="align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="3"
+          ><div class="grid-content ">
             <div class="mt-5">
               <img
                 src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
               />
               <h3 class="h4 mb-2">Java</h3>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img src="https://img.icons8.com/nolan/48/xml.png" />
+            <h3 class="h4 mb-2">XML</h3>
+          </div></el-col
+        >
+      </el-row>
+    </div>
+    <hr />
+    <h2>Software Development</h2>
+    <div style="margin-top: 40px; margin-bottom: 20px;">
+      <el-row
+        :gutter="20"
+        style="align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="3"
+          ><div class="grid-content ">
             <div class="mt-5">
               <img
-                src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
               />
-              <h3 class="h4 mb-2">C++</h3>
+              <h3 class="h4 mb-2">Java</h3>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page-section" id="services">
-      <div class="container">
-        <h2 class="text-center mt-0">Automated Test Development</h2>
-        <hr class="divider" />
-        <div class="row" style="padding-left: 35%">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-4" style="margin-top: 1.8rem !important;">
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img
+              src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+            />
+            <h3 class="h4 mb-2">C++</h3>
+          </div></el-col
+        >
+      </el-row>
+    </div>
+    <hr />
+    <h2>Automated Test Development</h2>
+    <div style="margin-top: 40px; margin-bottom: 20px;">
+      <el-row
+        :gutter="20"
+        style="align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <div class="mt-5">
               <img
                 src="../assets/robot-framework-white.png"
                 style="width: 70px; height:70px"
               />
               <h3 class="h4 mb-2">Robot Framework</h3>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          </div></el-col
+        >
+        <el-col :span="3"
+          ><div class="grid-content ">
+            <img src="https://img.icons8.com/color/50/000000/python.png" />
+            <h3 class="h4 mb-2">Python</h3>
+          </div></el-col
+        >
+      </el-row>
+    </div>
+    <hr />
+    <h2>Others</h2>
+    <div style="margin-top: 40px; margin-bottom: 20px;">
+      <el-row
+        :gutter="20"
+        style="align-items: center;display: flex; justify-content: center;"
+      >
+        <el-col :span="3"
+          ><div class="grid-content ">
             <div class="mt-5">
-              <img src="https://img.icons8.com/color/50/000000/python.png" />
-              <h3 class="h4 mb-2">Python</h3>
+              <img
+                src="https://img.icons8.com/color/50/000000/ruby-programming-language.png"
+              />
+              <h3 class="h4 mb-2">Ruby On Rails</h3>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page-section" id="services">
-      <div class="container">
-        <h2 class="text-center mt-0">Others</h2>
-        <div class="col-lg-12 col-md-24 text-center">
-          <div class="mt-5">
-            <img
-              src="https://img.icons8.com/color/50/000000/ruby-programming-language.png"
-            />
-            <h3 class="h4 mb-2">Ruby On Rails</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
+          </div></el-col
+        >
+      </el-row>
+    </div>
+    <hr />
+    <hr />
     <p>
       Cup of Codes Logo created by
       <a href="https://www.instagram.com/mvasketches/"
@@ -196,11 +207,7 @@
     </p>
     <p>
       Icons made by
-      <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
-        >Freepik</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+      <a href="https://www.flaticon.com/" title="Flaticon"> Flaticon</a>
     </p>
     <p>
       Background photo created by
@@ -212,19 +219,12 @@
       Language Icons by
       <a href="https://icons8.com/">Icons8</a>
     </p>
+    <p>
+      Gif by
+      <a
+        href="https://giphy.com/stickers/rest-cosy-greendotori-Rh4LjWp71c9fAm7Hk4"
+        >GIPHY</a
+      >
+    </p>
   </div>
 </template>
-<style>
-body {
-  margin: 0;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: grey;
-}
-</style>
